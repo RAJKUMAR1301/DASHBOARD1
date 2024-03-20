@@ -10,35 +10,182 @@
 
 
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
-.short{
+/* .short{
   display:flex;
   flex-direction: column;
 
-}
-.line{
+} */
+/* .line{
   border:'2px solid slate'
+} */
+
+
+.ant-menu-title-content{
+  margin-left: 0.75rem;
+  padding-left: 1.5rem;
+  white-space: nowrap;
+  color:white; 
+  font-weight: 500;
+  font-size:16px;
+  font-family: "DM Sans", sans-serif;
 }
+
+/* project div */
+/* .ant-menu-submenu-title {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border-radius: 8px;
+  background-color: #8c8c8c;
+  
+} */
+.ant-menu-submenu-title[aria-haspopup="false"] {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #8c8c8c;
+  width:150px!important;
+}
+
+
+.ant-menu-submenu-title:hover {
+  background-color: #8c8c8c !important; /* Same color as previous */
+}
+.anticon.anticon-fund-projection-screen.ant-menu-item-icon svg {
+  margin-top:5px;
+  width: 26px;
+  height: 26px;
+  color:#fffbe6;
+}
+.ant-menu-item{
+  display:flex ;
+ justify-content:center;
+ align-items: center;
+ 
+}
+.anticon.anticon-home.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+  color:#4096ff;
+}
+.anticon.anticon-appstore.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+   color:#fffbe6;
+}
+.anticon.anticon-caret-right.ant-menu-item-icon svg{
+  margin-top: 6px;
+  margin-left: -8px;
+  width: 26px;
+  height: 26px;
+  color:#0958d9;
+}
+.anticon.anticon-caret-right.ant-menu-item-icon:hover svg {
+  color: #fffbe6; /* Change color on hover */
+}
+/* Developer icons */
+.anticon.anticon-code-sandbox.ant-menu-item-icon svg {
+  margin-top: 6px;
+  margin-left: -8px;
+  width: 26px;
+  height: 26px;
+  color: #b7eb8f;
+  transition: color 0.5s, transform 0.5s; /* Add transition for color and transform */
+}
+
+.anticon.anticon-code-sandbox.ant-menu-item-icon:hover svg {
+  color: #fffbe6; /* Change color on hover */
+  transform: rotate(360deg); /* Rotate 360 degrees on hover */
+}
+
+/* .ant-menu-title-content {
+  visibility: hidden; /* or display: none; */
+
+.ant-menu-submenu .ant-menu-submenu-vertical{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* whole text */
+.ant-menu-title-content{
+  margin-top:5px;
+
+}
+/* lock icons */
+.anticon.anticon-lock.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+   color:#fffbe6;
+}
+/* usage icons */
+
+.anticon.anticon-thunderbolt.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+   color:#fffbe6;
+}
+/* feedback icons */
+
+.anticon.anticon-message.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+  color:#4096ff;
+}
+/* setting icons */
+.anticon.anticon-setting.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+   color:#fffbe6;
+}
+
+/* logout icon */
+.anticon.anticon-upload.ant-menu-item-icon svg{
+  width: 16px;
+  height: 16px;
+   color:#fffbe6;
+}
+
+/* user icons */
+
+.anticon.anticon-user.ant-menu-item-icon svg {
+  margin-left:-8px;
+  width: 24px;
+  height: 24px;
+  color: #fffbe6;
+  border: 2px solid #fffbe6; /* Set border */
+  border-radius: 50%; /* Apply circular border */
+}
+/* inside text */
+
+
+.ant-menu-item {
+  /* Reset all CSS properties to their initial values */
+  background: initial !important;
+  
+ 
+  
+  /* Add more properties as needed */
+}
+.ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-active {
+  padding-left: 20px !important; /* Decrease padding-left */
+  padding-right: 40px !important; /* Increase padding-right */
+  box-sizing: border-box !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
