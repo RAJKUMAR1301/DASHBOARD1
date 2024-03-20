@@ -9,7 +9,6 @@
 }
 
 
-
 /* .short{
   display:flex;
   flex-direction: column;
@@ -95,6 +94,11 @@
   transition: color 0.5s, transform 0.5s; /* Add transition for color and transform */
 }
 
+.anticon.anticon-code-sandbox.ant-menu-item-icon.movement svg {
+  transition-duration: 0.075s !important; /* Override transition duration */
+}
+
+
 .anticon.anticon-code-sandbox.ant-menu-item-icon:hover svg {
   color: #fffbe6; /* Change color on hover */
   transform: rotate(360deg); /* Rotate 360 degrees on hover */
@@ -114,11 +118,18 @@
 
 }
 /* lock icons */
-.anticon.anticon-lock.ant-menu-item-icon svg{
+.anticon.anticon-lock.ant-menu-item-icon svg {
   width: 16px;
   height: 16px;
-   color:#fffbe6;
+  color: #fffbe6;
+  transition: all 0.75s ease; /* Define transition for all properties */
 }
+
+/* Add a class when there's any movement */
+.anticon.anticon-lock.ant-menu-item-icon.movement svg {
+  transition-duration: 75ms; /* Override transition duration */
+}
+
 /* usage icons */
 
 .anticon.anticon-thunderbolt.ant-menu-item-icon svg{
@@ -173,6 +184,7 @@
   padding-right: 40px !important; /* Increase padding-right */
   box-sizing: border-box !important;
 }
+
 
 
 
